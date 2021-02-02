@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "my-blog",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "My personal blog about web development and another random cool stuff",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Eduardo Dusik",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
@@ -23,6 +23,15 @@
     "prettier": "2.2.1"
   },
   "keywords": [
+    "eduardo",
+    "dusik",
+    "development",
+    "desenvolvedor",
+    "front-end",
+    "blog",
+    "site",
+    "web",
+    "react",    
     "gatsby"
   ],
   "license": "0BSD",
