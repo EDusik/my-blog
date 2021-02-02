@@ -1,7 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
-import * as Styled from "./Styled";
+import * as Styled from "./styled";
 
 const Avatar = () => {
 	const { avatarImage } = useStaticQuery(

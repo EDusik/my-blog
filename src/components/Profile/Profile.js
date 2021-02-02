@@ -2,32 +2,36 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Avatar from "../Avatar/Avatar";
 
+import * as Styled from "./styled";
+
 const Profile = () => {
 	const {
 		site: {
-			siteMetadata: { title, description, position, author }
+			siteMetadata: { title, description, position }
 		}
 	} = useStaticQuery(graphql`
     query MySiteMetadata {
       site {
         siteMetadata {
           title
-          description
           position
-          author
+          description
         }    
       }
     }
   `);
 
 	return (
-		<div className="Profile-wrapper">
-			<Avatar />
-			<h1>{title}</h1>
-			<h2>{position}</h2>
-			<h2>{author}</h2>
-			<p>{description}</p>
-		</div>
+		<Styled.ProfileWrapper>
+			<Styled.ProfileLink>
+				<Avatar />
+				<Styled.ProfileAuthor>
+					{title}
+					<Styled.ProfilePosition>{position}</Styled.ProfilePosition>
+				</Styled.ProfileAuthor>
+			</Styled.ProfileLink>
+			<Styled.ProfileDescription>{description}</Styled.ProfileDescription>
+		</Styled.ProfileWrapper>
 	);
 };
 
