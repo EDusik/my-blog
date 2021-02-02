@@ -2,29 +2,18 @@ import React from "react";
 import PropTypes from "prop-types";
 import Profile from "../Profile/Profile";
 
-import styled from "styled-components";
 import GlobalStyles from "../../styles/Global";
-
-const LayoutWrapper = styled.section`
-  display: flex;
-`;
-
-const LayoutMain = styled.main`
-  background: #16202c;
-  min-height: 100vh;
-  padding: 0 3.75rem 0 20rem;
-  width: 100%;
-`;
+import * as Styled from "../../styles/Styled";
 
 const Layout = ({ children }) => {
 	return (
-		<LayoutWrapper>
+		<Styled.LayoutWrapper>
 			<GlobalStyles />
 			<aside>
 				<Profile />
 			</aside>
-			<LayoutMain>{children}</LayoutMain>
-		</LayoutWrapper>
+			<Styled.LayoutMain>{children}</Styled.LayoutMain>
+		</Styled.LayoutWrapper>
 	);
 };
 
