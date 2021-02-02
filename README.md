@@ -106,7 +106,7 @@ styled component
 npm install -g gatsby-cli
 gatsby new my-blog
 gatsby develop
-
+npm run develop:playground
 
 gatsby --help
 gatsby develop
