@@ -31,6 +31,12 @@ module.exports = {
 			}
 		},
 		{
+			resolve: `gatsby-plugin-disqus`,
+			options: {
+				shortname: `https-www-eduardodusik-dev`
+			}
+		},
+		{
 			resolve: `gatsby-transformer-remark`,
 			options: {
 				plugins: [
