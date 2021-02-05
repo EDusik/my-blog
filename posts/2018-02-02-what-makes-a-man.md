@@ -16,14 +16,14 @@ import Profile from "../Profile"
 import SocialLinks from "../SocialLinks"
 import MenuLinks from "../MenuLinks"
 
-import * as S from "./styled"
+import * as Styled from "./styled"
 
 const Sidebar = () => (
-  <S.SidebarWrapper>
+  <Styled.SidebarWrapper>
     <Profile />
     <SocialLinks />
     <MenuLinks />
-  </S.SidebarWrapper>
+  </Styled.SidebarWrapper>
 )
 
 export default Sidebar
