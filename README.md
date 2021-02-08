@@ -118,3 +118,6 @@ gatsby repl
 gatsby new [rootPath] [starter]
 gatsby plugin
 gatsby telemetry
+
+create html default
+cp .cache/default-html.js src/html.js
