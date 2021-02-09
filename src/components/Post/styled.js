@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PostHeader = styled.header`
-  color: var(--white);
+  color: var(--postColor);
   margin: auto;
   max-width: 70rem;
   padding: 5rem 5rem 0;
@@ -31,16 +31,12 @@ export const MainContent = styled.section`
   max-width: 70rem;
   padding: 2rem 5rem;
   p,
-  h1,
-  h2,
-  h3,
-  h4,
   ul,
   ol,
   .tags,
   iframe,
   .button-post {
-    color: var(--white);
+    color: var(--texts);
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.7;
@@ -50,19 +46,14 @@ export const MainContent = styled.section`
   p {
     margin: 0 auto 1.6rem;
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    margin: 2.4rem auto 1rem;
-  }
+
   ul,
   ol {
     list-style: disc;
     padding-left: 2.5rem;
     margin: 0 auto 1.6rem;
   }
+  
   li {
     padding: 0.625rem 0;
     & > ul {
@@ -75,17 +66,20 @@ export const MainContent = styled.section`
       word-wrap: break-word;
     }
   }
+
   img {
     display: block;
     max-width: 100%;
     margin: 1.875rem auto;
   }
+
   iframe {
     padding: 0 1.6rem 1.6rem;
     width: 100%;
   }
+
   blockquote {
-    color: var(--white);
+    color: var(--texts);
     border-left: 0.3rem solid var(--highlight);
     padding: 0 1.875rem;
     margin: 3.125rem auto;
@@ -103,7 +97,10 @@ export const MainContent = styled.section`
   h2,
   h3,
   h4,
-  h5 {
+  h5,
+  h6 {
+    color: var(--postColor);
+    margin: 2.4rem auto 1rem;
     font-weight: 800;
     letter-spacing: 0.069rem;
     line-height: 1.4;
@@ -126,13 +123,15 @@ export const MainContent = styled.section`
   strong {
     font-weight: 700;
   }
+
   .gatsby-resp-image-background-image {
     z-index: 2;
     opacity: 1 !important;
   }
+
   .gatsby-resp-image-image {
     box-shadow: none !important;
-    transition: opacity 0.2s;
+    transition: opacity 0.4s;
     &.lazyload {
       opacity: 0;
     }
@@ -141,17 +140,20 @@ export const MainContent = styled.section`
       z-index: 3;
     }
   }
+
   .gatsby-highlight {
     padding: 0 1.6rem 1.6rem;
   }
+
   .instagram-media {
     margin: 1rem auto !important;
   }
+
   a {
     border-bottom: 1px dashed var(--highlight);
     color: var(--highlight);
     text-decoration: none;
-    transition: opacity 0.5s;
+    transition: opacity 0.4s;
     svg {
       color: var(--white);
     }

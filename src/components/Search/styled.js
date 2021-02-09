@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const SearchWrapper = styled.section`
-  background: var(--mediumBackground);
+  background: var(--background);
   display: flex;
   flex-direction: column;
   width: 100%;
   transition: opacity 0.4s;
+  
   .ais-InstantSearch__root {
     display: flex;
     flex-direction: column;

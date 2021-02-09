@@ -10,13 +10,14 @@ export const ProfileWrapper = styled.section`
 export const ProfileLink = styled(Link)`
   color: var(--texts);
   text-decoration: none;
-  transition: color 0.5s;
+  transition: color 0.4s;
   &:hover {
     color: var(--highlight);
   }
 `;
 
 export const ProfileAuthor = styled.h1`
+  color: var(--highlight);
   font-size: 1.6rem;
   margin: 0.5rem auto 1.5rem;
 `;

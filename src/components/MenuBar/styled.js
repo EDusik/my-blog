@@ -33,6 +33,7 @@ export const MenuBarItem = styled.span`
   position: relative;
   width: 3.75rem;
   &:hover {
+    transition: .4s;
     color: var(--highlight);
   }
 `;

@@ -4,21 +4,21 @@ import { Link } from "gatsby";
 export const RecommendedWrapper = styled.section`
   border-bottom: 1px solid var(--borders);
   border-top: 1px solid var(--borders);
-  background: var(--mediumBackground);
+  background: var(--background);
   display: flex;
 `;
 
 export const RecommendedLink = styled(Link)`
   align-items: center;
-  background: var(--mediumBackground);
+  background: var(--background);
   color: var(--highlight);
   display: flex;
   padding: 1rem;
   text-decoration: none;
-  transition: background 0.5s;
+  transition: background 0.4s;
   width: 50%;
   &:hover {
-    background: var(--borders);
+    background: var(--mediumBackground);
   }
   &.previous {
     border-right: 1px solid var(--borders);
