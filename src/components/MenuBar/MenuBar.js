@@ -4,7 +4,6 @@ import { Home } from "@styled-icons/boxicons-solid/Home";
 import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2";
 import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt";
 import { Lightbulb as Light } from "@styled-icons/bootstrap/Lightbulb";
-import { Grid } from "@styled-icons/boxicons-solid/Grid";
 
 import * as Styled from "./styled";
 
@@ -41,9 +40,6 @@ const MenuBar = () => {
 					className={theme}
 				>
 					<Light />
-				</Styled.MenuBarItem>
-				<Styled.MenuBarItem title="Change View">
-					<Grid />
 				</Styled.MenuBarItem>
 				<Styled.MenuBarItem title="Go to the Top">
 					<Arrow />
