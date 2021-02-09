@@ -9,7 +9,7 @@ export const CommentsWrapper = styled.section`
   }
   #disqus_thread {
     a {
-      color: var(--white) !important;
+      color: var(--texts) !important;
     }
   }
 `;
