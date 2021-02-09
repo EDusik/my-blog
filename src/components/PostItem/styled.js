@@ -61,11 +61,6 @@ export const PostItemInfo = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 1.5rem;
-
-  body#grid & {
-    line-height: 1.1;
-    margin: 0.8rem 0;
-  }
 `;
 
 export const PostItemDate = styled.time`
@@ -76,6 +71,10 @@ export const PostItemTitle = styled.h1`
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0.2rem 0 0.5rem;
+  body#grid & {
+    line-height: 1.1;
+    margin: 0.8rem 0;
+  }
 `;
 
 export const PostItemDescription = styled.p`
