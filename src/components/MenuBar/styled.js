@@ -31,6 +31,14 @@ export const MenuBarItem = styled.span`
   height: 3.75rem;
   padding: 1.1rem;
   position: relative;
+
+  &.light {
+    color: var(--highlight);
+    &:hover {
+      color: var(--texts);
+    }
+  }
+
   width: 3.75rem;
   &:hover {
     transition: .4s;

@@ -9,6 +9,7 @@ export const PostItemLink = styled(Link)`
     transition: .4s;
     color: var(--highlight);
     cursor: pointer;
+    background-color: var(--mediumBackground);
   }
 `;
 
