@@ -70,6 +70,11 @@ export const MainContent = styled.section`
     line-height: 1.7;
     letter-spacing: 0.069rem;
     padding: 0 1.4rem;
+
+    ${media.lessThan("small")`
+      font-size: 1rem;
+      line-height: 1.5;
+    `}
   }
 
   ${media.lessThan("large")`
@@ -148,6 +153,10 @@ export const MainContent = styled.section`
     font-size: 2.8rem;
     ${media.lessThan("large")`
       font-size: 1.875rem;
+    `}
+
+    ${media.lessThan("small")`
+      font-size: 1.5rem;
     `}
   }
 

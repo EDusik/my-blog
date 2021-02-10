@@ -14,9 +14,17 @@ export const SidebarWrapper = styled.aside`
   width: 20rem;
 
   ${media.lessThan("large")`
-    align-items: flex-start;
+
+    
+
+    
+
     height: auto;
-    padding: 1rem 2rem;
     width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    flex-wrap: nowrap;
   `}
 `;
