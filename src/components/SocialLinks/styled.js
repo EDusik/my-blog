@@ -1,9 +1,14 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const SocialLinksWrapper = styled.nav`
   margin: 2rem auto;
   color: var(--highlight);
   width: 100%;
+
+  ${media.lessThan("large")`
+    display: none;
+  `}
 `;
 
 export const SocialLinksList = styled.ul`

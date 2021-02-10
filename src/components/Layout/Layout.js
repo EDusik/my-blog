@@ -4,7 +4,7 @@ import Sidebar from "../Sidebar/Sidebar";
 import MenuBar from "../MenuBar/MenuBar";
 
 import GlobalStyles from "../../styles/Global";
-import * as Styled from "../../styles/styled";
+import * as Styled from "../../components/Layout/styled";
 
 const Layout = ({ children }) => {
 	return (
