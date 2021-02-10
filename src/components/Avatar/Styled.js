@@ -10,8 +10,8 @@ export const AvatarWrapper = styled(Img)`
   border: solid 5px var(--highlight);
 
   ${media.lessThan("large")`
-    width: 4rem;
-    height: 4rem;
+    width: 2.8rem;
+    height: 2.8rem;
     border: none;
   `}
 `;
