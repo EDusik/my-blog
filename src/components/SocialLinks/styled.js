@@ -47,8 +47,6 @@ export const IconWrapper = styled.div`
   `}
 
   ${media.lessThan("small")`
-    width: 22px;
-    height: 22px;
-    margin: .8rem .6rem;
+    display: none;
   `}
 `;

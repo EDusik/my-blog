@@ -45,6 +45,11 @@ export const SearchWrapper = styled.section`
     font-size: 1.6rem;
     padding: 0.5rem;
     width: 100%;
+
+    ${media.lessThan("large")`
+      font-size: 1.2rem;
+    `}
+
     &::placeholder {
       color: var(--texts);
     }

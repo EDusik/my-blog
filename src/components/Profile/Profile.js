@@ -23,7 +23,7 @@ const Profile = () => {
 
 	return (
 		<Styled.ProfileWrapper>
-			<Styled.ProfileLink>
+			<Styled.ProfileLink cover duration={0.6} to="/">
 				<Avatar />
 				<Styled.ProfileAuthor>
 					{title}

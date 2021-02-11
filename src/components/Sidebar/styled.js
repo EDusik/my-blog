@@ -14,11 +14,6 @@ export const SidebarWrapper = styled.aside`
   width: 20rem;
 
   ${media.lessThan("large")`
-
-    
-
-    
-
     height: auto;
     width: 100%;
     flex-direction: row;

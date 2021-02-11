@@ -20,7 +20,7 @@ export const PostTitle = styled.h1`
   margin: 1rem auto;
 
   ${media.lessThan("large")`
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     line-height: 1.1;
     padding: 0 1rem;
   `}
@@ -32,7 +32,7 @@ export const PostDescription = styled.h2`
   padding: 0 1.4rem;
 
   ${media.lessThan("large")`
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.3;
     padding: 0 1rem;
   `}
@@ -44,6 +44,7 @@ export const PostDate = styled.p`
   padding: 0 1.4rem;
 
   ${media.lessThan("large")`
+    font-size: 1rem;
     padding: 0 1rem;
   `}
 `;
@@ -74,6 +75,7 @@ export const MainContent = styled.section`
     ${media.lessThan("small")`
       font-size: 1rem;
       line-height: 1.5;
+      padding: 0;
     `}
   }
 
@@ -150,7 +152,6 @@ export const MainContent = styled.section`
   }
 
   h1 {
-    font-size: 2.8rem;
     ${media.lessThan("large")`
       font-size: 1.875rem;
     `}
