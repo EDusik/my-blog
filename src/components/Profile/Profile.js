@@ -2,6 +2,8 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Avatar from "../Avatar/Avatar";
 
+import getAnimationColor from "../../utils/theme_color";
+
 import * as Styled from "./styled";
 
 const Profile = () => {
@@ -23,7 +25,7 @@ const Profile = () => {
 
 	return (
 		<Styled.ProfileWrapper>
-			<Styled.ProfileLink cover duration={0.6} to="/">
+			<Styled.ProfileLink to="/" duration={0.6} direction="left" bg={getAnimationColor()} cover>
 				<Avatar />
 				<Styled.ProfileAuthor>
 					{title}

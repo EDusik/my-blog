@@ -1,10 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
+import getAnimationColor from "../../utils/theme_color";
 
 import * as Styled from "./styled";
 
 const PostItem = ({ slug, background, category, date, timeToRead, title, description }) => (
-	<Styled.PostItemLink to={slug}>
+	<Styled.PostItemLink
+		to={slug}
+		duration={0.6}
+		direction="right"
+		bg={getAnimationColor()}
+		cover
+		activeClassName="active"
+	>
 		<Styled.PostItemWrapper>
 			<Styled.PostItemTag background={background}>{category}</Styled.PostItemTag>
 			<Styled.PostItemInfo>

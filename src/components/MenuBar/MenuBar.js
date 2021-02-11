@@ -5,6 +5,8 @@ import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2"
 import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt";
 import { Lightbulb as Light } from "@styled-icons/bootstrap/Lightbulb";
 
+import getAnimationColor from "../../utils/theme_color";
+
 import * as Styled from "./styled";
 
 const MenuBar = () => {
@@ -20,12 +22,19 @@ const MenuBar = () => {
 	return (
 		<Styled.MenuBarWrapper>
 			<Styled.MenuBarGroup>
-				<Styled.MenuBarLink to="/" title="Home">
+				<Styled.MenuBarLink to="/" title="Home" direction="right" bg={getAnimationColor()} duration={0.6} cover>
 					<Styled.MenuBarItem>
 						<Home />
 					</Styled.MenuBarItem>
 				</Styled.MenuBarLink>
-				<Styled.MenuBarLink to="/search/" title="Search">
+				<Styled.MenuBarLink
+					to="/search/"
+					title="Search"
+					direction="right"
+					bg={getAnimationColor()}
+					duration={0.6}
+					cover
+				>
 					<Styled.MenuBarItem>
 						<Search />
 					</Styled.MenuBarItem>
