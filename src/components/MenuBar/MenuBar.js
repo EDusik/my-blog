@@ -6,6 +6,7 @@ import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt";
 import { Lightbulb as Light } from "@styled-icons/bootstrap/Lightbulb";
 
 import getAnimationColor from "../../utils/getAnimationColor";
+import scrollToTop from "../../utils/scrollToTop";
 
 import * as Styled from "./styled";
 
@@ -50,7 +51,7 @@ const MenuBar = () => {
 				>
 					<Light />
 				</Styled.MenuBarItem>
-				<Styled.MenuBarItem title="Go to the Top">
+				<Styled.MenuBarItem title="Go to the Top" onClick={scrollToTop}>
 					<Arrow />
 				</Styled.MenuBarItem>
 			</Styled.MenuBarGroup>
