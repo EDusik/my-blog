@@ -129,10 +129,12 @@ export const MainContent = styled.section`
     padding: 0 1.875rem;
     margin: 3.125rem auto;
   }
+
   hr {
     border: 1px solid var(--borders);
     margin: 3rem auto;
   }
+
   #twitter-widget-0,
   .instagram-media,
   .twitter-tweet {
@@ -205,11 +207,9 @@ export const MainContent = styled.section`
   }
 
   .gatsby-highlight {
-    padding: 0 1.6rem 1.6rem;
-    
-    ${media.lessThan("large")`
-      padding: 0;
-    `}
+    padding: 2rem 0;
+    border: solid var(--mediumBackground) 1px;
+    margin-bottom: 2rem;
   }
 
   .instagram-media {
