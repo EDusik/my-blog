@@ -6,15 +6,19 @@ import MenuBar from "../MenuBar/MenuBar";
 import GlobalStyles from "../../styles/Global";
 import * as Styled from "../../components/Layout/styled";
 
+import { TransitionPortal } from "gatsby-plugin-transition-link";
+
 const Layout = ({ children }) => {
 	return (
 		<Styled.LayoutWrapper>
 			<GlobalStyles />
-			<aside>
+			<TransitionPortal level="top">
 				<Sidebar />
-			</aside>
+			</TransitionPortal>
 			<Styled.LayoutMain>{children}</Styled.LayoutMain>
-			<MenuBar />
+			<TransitionPortal level="top">
+				<MenuBar />
+			</TransitionPortal>
 		</Styled.LayoutWrapper>
 	);
 };
