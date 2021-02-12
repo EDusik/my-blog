@@ -119,5 +119,9 @@ gatsby new [rootPath] [starter]
 gatsby plugin
 gatsby telemetry
 
+# build
+gatsby build 
+gatsby serve
+
 create html default
 cp .cache/default-html.js src/html.js
