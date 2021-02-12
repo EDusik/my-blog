@@ -41,3 +41,17 @@ export const RecommendedLink = styled(AniLink)`
     margin-left: 0.5rem;
   }
 `;
+
+export const HomeLink = styled(AniLink)`
+  background: var(--background);
+  color: var(--highlight);
+  display: flex;
+  padding: 1rem;
+  margin: 2rem 0 2rem 0;
+  transition: background 0.4s;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+`;

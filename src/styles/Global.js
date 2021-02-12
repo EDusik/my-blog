@@ -75,7 +75,7 @@ const GlobalStyles = createGlobalStyle`
     --mediumBackground: #44475a;
     --background: #282a36;
     --white: #fff;
-    --black: #282a36;
+    --black: #44475a;
   }
 
   body.light {
@@ -86,7 +86,7 @@ const GlobalStyles = createGlobalStyle`
     --mediumBackground: #f8f8f2;
     --background: #fff;
     --white: #fff;
-    --black: #282a36;
+    --black: #44475a;
   }
 `;
 
