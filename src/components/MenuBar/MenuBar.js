@@ -5,7 +5,7 @@ import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2"
 import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt";
 import { Lightbulb as Light } from "@styled-icons/bootstrap/Lightbulb";
 
-import getAnimationColor from "../../utils/theme_color";
+import getAnimationColor from "../../utils/getAnimationColor";
 
 import * as Styled from "./styled";
 

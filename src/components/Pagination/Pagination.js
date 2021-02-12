@@ -2,7 +2,7 @@ import React from "react";
 import propTypes from "prop-types";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
-import getAnimationColor from "../../utils/theme_color";
+import getAnimationColor from "../../utils/getAnimationColor";
 
 import * as Styled from "./styled";
 

@@ -2,7 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Avatar from "../Avatar/Avatar";
 
-import getAnimationColor from "../../utils/theme_color";
+import getAnimationColor from "../../utils/getAnimationColor";
 
 import * as Styled from "./styled";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import propTypes from "prop-types";
 
-import getAnimationColor from "../../utils/theme_color";
+import getAnimationColor from "../../utils/getAnimationColor";
 
 import * as Styled from "./styled";
 
