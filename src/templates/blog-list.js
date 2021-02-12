@@ -17,7 +17,7 @@ const BlogList = props => {
 
 	return (
 		<Layout>
-			<SEO title="Home" />
+			<SEO title={postList.title} description={postList.description} image={postList.image} />
 			{postList.map(
 				({
 					node: {
