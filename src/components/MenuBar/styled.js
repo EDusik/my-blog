@@ -26,6 +26,12 @@ export const MenuBarWrapper = styled.aside`
     position: fixed;
     width: 100%;
   `}
+
+  ${media.greaterThan("large")`
+    .invisible {
+      display: none;
+    }
+  `}
 `;
 
 export const MenuBarGroup = styled.div`

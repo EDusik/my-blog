@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import { Home } from "@styled-icons/boxicons-solid/Home";
+import { Person } from "@styled-icons/material/Person";
 import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2";
 import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt";
 import { Lightbulb as Light } from "@styled-icons/bootstrap/Lightbulb";
@@ -23,9 +24,31 @@ const MenuBar = () => {
 	return (
 		<Styled.MenuBarWrapper>
 			<Styled.MenuBarGroup>
-				<Styled.MenuBarLink to="/" title="Home" direction="right" bg={getAnimationColor()} duration={0.6} cover>
+				<Styled.MenuBarLink
+					className="invisible"
+					to="/"
+					title="Home"
+					direction="right"
+					bg={getAnimationColor()}
+					duration={0.6}
+					cover
+				>
 					<Styled.MenuBarItem>
 						<Home />
+					</Styled.MenuBarItem>
+				</Styled.MenuBarLink>
+
+				<Styled.MenuBarLink
+					className="invisible"
+					to="/about/"
+					title="About"
+					direction="right"
+					bg={getAnimationColor()}
+					duration={0.6}
+					cover
+				>
+					<Styled.MenuBarItem>
+						<Person />
 					</Styled.MenuBarItem>
 				</Styled.MenuBarLink>
 				<Styled.MenuBarLink

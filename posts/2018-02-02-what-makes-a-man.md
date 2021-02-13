@@ -21,7 +21,7 @@ import * as Styled from "./styled"
 const Sidebar = () => (
   <Styled.SidebarWrapper>
     <Profile />
-    <SocialLinks />
+    <SocialLinks about={false} />
     <MenuLinks />
   </Styled.SidebarWrapper>
 )

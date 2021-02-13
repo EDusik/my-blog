@@ -1,13 +1,14 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import Icons from "./Icons";
 import links from "./content";
 
 import * as Styled from "./styled";
 
-const SocialLinks = () => (
+const SocialLinks = ({ about }) => (
 	<Styled.SocialLinksWrapper>
-		<Styled.SocialLinksList>
+		<Styled.SocialLinksList className={about === true ? "about" : "not-about"}>
 			{links.map((link, i) => {
 				const Icon = Icons[link.label];
 
@@ -24,5 +25,9 @@ const SocialLinks = () => (
 		</Styled.SocialLinksList>
 	</Styled.SocialLinksWrapper>
 );
+
+SocialLinks.propTypes = {
+	about: PropTypes.isRequired
+};
 
 export default SocialLinks;

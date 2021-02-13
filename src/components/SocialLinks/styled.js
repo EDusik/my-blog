@@ -10,6 +10,25 @@ export const SocialLinksWrapper = styled.nav`
     margin: 0rem;
     display: block;
   `}
+
+  ${media.lessThan("large")`
+    .about {
+      justify-content: flex-start;
+    }
+  `}
+
+  ${media.lessThan("small")`
+  .not-about{
+    display: none;
+  }
+   
+  `}
+
+  ${media.lessThan("small")`
+    .about {
+      display: flex;
+    }
+  `}
 `;
 
 export const SocialLinksList = styled.ul`
@@ -46,7 +65,4 @@ export const IconWrapper = styled.div`
     margin: .6rem;
   `}
 
-  ${media.lessThan("small")`
-    display: none;
-  `}
 `;
