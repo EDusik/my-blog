@@ -13,6 +13,7 @@ const postQuery = `{
           date_timestamp: date
           date(formatString: "MM/DD/YYYY")
           description
+          image
         }
         excerpt(pruneLength: 5000)
       }
