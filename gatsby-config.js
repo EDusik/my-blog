@@ -62,7 +62,12 @@ module.exports = {
 						}
 					},
 					`gatsby-remark-lazy-load`,
-					`gatsby-remark-prismjs`
+					{
+						resolve: `gatsby-remark-prismjs`,
+						options: {
+							throwInlineCodeLanguageWarning: false
+						}
+					}
 				]
 			}
 		},
