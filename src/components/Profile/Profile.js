@@ -26,7 +26,7 @@ const Profile = () => {
 	return (
 		<Styled.ProfileWrapper>
 			<Styled.ProfileLink to="/" duration={0.6} direction="left" bg={getAnimationColor()} cover>
-				{/* <Avatar /> */}
+				<Avatar />
 				<Styled.ProfileAuthor>
 					{title}
 					<Styled.ProfilePosition>{position}</Styled.ProfilePosition>
