@@ -19,4 +19,27 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss" }
       - { label: "image", name: "thumbnail", widget: "image" }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "select",
+          options: ["js", "html", "css", "dev", "tst", "tech", "w40k", "lotr", "draw"]
+        }
+      - {
+          label: "Background",
+          name: "background",
+          widget: "select",
+          options:
+            [
+              { label: "JS", value: "#bd93f9" },
+              { label: "HTML", value: "#ff5555" },
+              { label: "CSS", value: "#f1fa8c" },
+              { label: "DEV", value: "#6272a4" },
+              { label: "TST", value: "#637a91" },
+              { label: "TECH", value: "#8be9fd" },
+              { label: "W40K", value: "#ffb86c" },
+              { label: "LOTR", value: "#50fa7b" },
+              { label: "DRAW", value: "#ff79c6" }
+            ]
+        }
       - { label: "Body", name: "body", widget: "markdown" }
