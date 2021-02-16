@@ -1,12 +1,6 @@
 
 ## :man_technologist: About
 
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-
 This is my personal blog made with <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a>, I hope you like it :satisfied:\
 This project was based on <a href="https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/" target="_blank">this</a> Udemy course.
 ## :rocket: Technologies
