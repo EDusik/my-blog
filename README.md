@@ -1,8 +1,11 @@
 
 ## :man_technologist: About
 
-This is my personal blog made with <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a>, I hope you like it :satisfied:\
-This project was based on <a href="https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/" target="_blank">this</a> Udemy course.
+This is my personal blog made with <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a>.\
+This project was based on <a href="https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/" target="_blank">this</a> Udemy course.\
+
+I hope you like it :satisfied:
+
 ## :rocket: Technologies
 
 This project uses these technologies:
