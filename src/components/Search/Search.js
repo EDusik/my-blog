@@ -20,8 +20,8 @@ const Search = () => (
 			<SearchBox autoFocus translations={{ placeholder: "Search..." }} />
 			<Stats
 				translations={{
-					stats(nbHits, timeSpentMs) {
-						return `${nbHits} resultados encontrados em ${timeSpentMs}ms`;
+					stats(nbHits) {
+						return `${nbHits} results founded`;
 					}
 				}}
 			/>
