@@ -10,7 +10,7 @@ module.exports = {
 		author: `@eduardodusik`,
 		siteUrl: `https://eduardodusik.dev`,
 		about: `I'm a front-end web developer passionate about it. I enjoy listening to power metal and i'm unable to stay without coffee.`,
-		about_it: `I'm a spontaneous and curious person by nature, who likes chess and nerd stuff, from Lord of the Rings and card games to Warhammer 40k.`
+		about_it: `I'm a spontaneous and curious person by nature, who likes chess and nerd stuff, from The Lord of the Rings to Warhammer 40k.`
 	},
 	plugins: [
 		`gatsby-plugin-transition-link`,
