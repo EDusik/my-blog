@@ -106,6 +106,14 @@ git diff
 
 After that, it is necessary to prepare our files to be committed, you can activate them one by one using the command:
 
-```
+```gitconfig
 git stage <path of file>
 ```
+
+Or adding all modified files running this command on the source of project:
+
+```gitconfig
+git add .
+```
+
+We are almost at the end of the process, it seems like a lot, but I guarantee that with practice these commands will be natural and automatic.
