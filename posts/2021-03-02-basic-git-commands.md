@@ -129,3 +129,9 @@ After adding the files via stash or add, just commit them, using this command:
 ```
 git commit -m "<phrase used in the commit>"
 ```
+
+We are almost at the end, the files are already saved on your machine, however to save it in the repository it is necessary to run the command:
+
+```
+git push origin <name of the branch>
+```
