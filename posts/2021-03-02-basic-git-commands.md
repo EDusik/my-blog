@@ -46,3 +46,9 @@ git config --global user.email
 ```
 
 #### Creating a git project
+
+To create an empty Git repository or reinitialize an existing one:
+
+```gitattributes
+git init
+```
