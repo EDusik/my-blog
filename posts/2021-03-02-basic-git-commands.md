@@ -60,8 +60,16 @@ To change the remote upstream:
 git remote set-url origin <url>
 ```
 
-To clone an existing project
+Clone an existing project:
 
 ```
 git clone <url>
+```
+
+#### After configuring the project
+
+Once a project is set up correctly, every change made to it will be detected by git, it is possible to see the changes by the command:
+
+```
+git status
 ```
