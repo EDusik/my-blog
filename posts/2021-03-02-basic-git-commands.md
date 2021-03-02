@@ -46,4 +46,4 @@ git config --global user.email
 
 ```
 
-### Creating a git project
+#### Creating a git project
