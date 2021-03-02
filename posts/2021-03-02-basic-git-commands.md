@@ -51,4 +51,13 @@ To create an empty Git repository or reinitialize an existing one:
 
 ```gitattributes
 git init
+
 ```
+
+
+
+<!--StartFragment-->
+
+git remote set-url origin <url>
+
+<!--EndFragment-->
