@@ -135,3 +135,7 @@ We are almost at the end, the files are already saved on your machine, however t
 ```gitconfig
 git push origin <name of the branch>
 ```
+
+Well this is the end of the post, I hope it helped the people with the git commands that you will use from day to day, of course, any doubts is always good to check the documentation on the [site](https://git-scm.com/docs).
+
+Thanks to everyone.
