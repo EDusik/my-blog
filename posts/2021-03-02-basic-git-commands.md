@@ -1,5 +1,5 @@
 ---
-title: Basic git commands
+title: Git commands
 description: Main git commands that you will use on day by day
 date: 2021-03-02 02:55:59
 thumbnail: assets/img/git.png
@@ -18,11 +18,15 @@ Git is a free and open source distributed version control system. It helps devel
 
 # So, Let's Go!
 
-## Download
+### Download
 
-First you must download git on your computer from the [website](https://git-scm.com/). It is a very simple process, after downloading git, we are ready to run our first command lines.\
-\
-Setup 
+First you must download git on your computer from the [website](https://git-scm.com/). It is a very simple process, after downloading git, we are ready to run our first command lines.
+
+### How use?
+
+The git commands can be used by the git bash, terminal or even the integrated vscode terminal.
+
+### Setup 
 
 To simplify I will use the blocks between **<>** will be your data, so you must have already created an account on some source code hosting platforms like [GitHub](https://github.com/).
 
@@ -41,3 +45,5 @@ git config --global user.name
 git config --global user.email
 
 ```
+
+### Creating a git project
