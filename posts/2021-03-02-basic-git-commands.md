@@ -8,9 +8,9 @@ background: "#6272a4"
 ---
 #### Why write about git?
 
-I decided to write this post, because, although it's something common for those who already work with software development, I realize that it can generate many doubts in the beginners in programming.\
-\
-This article aims to explain the main commands used by git and its features.
+`I decided to write this post, because, although it's something common for those who already work with software development, I realize that it can generate many doubts in the beginners in programming.`\
+``\
+`This article aims to explain the main commands used by git and its features.`
 
 #### Why use git?
 
@@ -126,12 +126,12 @@ git add .
 
 After adding the files via stash or add, just commit them, using this command:
 
-```
+```gitconfig
 git commit -m "<phrase used in the commit>"
 ```
 
 We are almost at the end, the files are already saved on your machine, however to save it in the repository it is necessary to run the command:
 
-```
+```gitconfig
 git push origin <name of the branch>
 ```
