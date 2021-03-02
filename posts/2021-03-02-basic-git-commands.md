@@ -47,11 +47,10 @@ git config --global user.email
 
 #### Creating a git project
 
-To create an empty Git repository or reinitialize an existing one:
+To create an empty git repository or reinitialize an existing one:
 
 ```gitattributes
 git init
-
 ```
 
 To change the remote upstream:
@@ -68,8 +67,8 @@ git clone <url>
 
 #### After configuring the project
 
-Once a project is set up correctly, every change made to it will be detected by git, it is possible to see the changes by the command:
+Once a project is set up correctly, every change made to it will be detected by git, it's possible to see the changes by the command:
 
-```
+```gitconfig
 git status
 ```
