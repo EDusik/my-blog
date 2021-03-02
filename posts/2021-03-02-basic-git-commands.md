@@ -122,4 +122,10 @@ Or adding all modified files running this command on the source of project:
 git add .
 ```
 
-We are almost at the end of the process, it seems like a lot, but I guarantee that with practice these commands will be natural and automatic.
+*We are almost at the end of the process, it seems like a lot, but I guarantee that with practice these commands will be natural and automatic.*
+
+After adding the files via stash or add, just commit them, using this command:
+
+```
+git commit -m "<phrase used in the commit>"
+```
