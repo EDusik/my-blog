@@ -26,7 +26,7 @@ First you must download git on your computer from the [website](https://git-scm.
 
 The git commands can be used by the git bash, terminal or even the integrated vscode terminal.
 
-#### Setup 
+#### Setup
 
 To simplify I will use the blocks between **<>** will be your data, so you must have already created an account on some source code hosting platforms like [GitHub](https://github.com/).
 
@@ -43,7 +43,6 @@ We can check the settings with the commands:
 ```gitconfig
 git config --global user.name
 git config --global user.email
-
 ```
 
 #### Creating a git project
