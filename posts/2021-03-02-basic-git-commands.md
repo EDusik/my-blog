@@ -92,6 +92,12 @@ or the reduced form that I use:
 git checkout -b <name of branch>
 ```
 
+You can check the branch you are working with with the command:
+
+```gitconfig
+git branch
+```
+
 Once a project is set up correctly and changes made to the code, every modification made to it will be detected by git, it's possible to see the files changed by the command:
 
 ```gitconfig
