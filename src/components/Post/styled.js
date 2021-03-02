@@ -207,9 +207,13 @@ export const MainContent = styled.section`
   }
 
   .gatsby-highlight {
-    padding: 2rem 0;
+    padding: 1rem 0px;
     border: solid var(--mediumBackground) 1px;
-    margin-bottom: 2rem;
+    margin: 1rem 0;
+  }
+
+  .gatsby-highlight pre {
+    padding: 0 0 0 22px;
   }
 
   .instagram-media {
