@@ -6,27 +6,27 @@ thumbnail: assets/img/git.png
 category: dev
 background: "#6272a4"
 ---
-## Why write about git?
+#### Why write about git?
 
 I decided to write this post, because, although it's something common for those who already work with software development, I realize that it can generate many doubts in the beginners in programming.\
 \
 This article aims to explain the main commands used by git and its features.
 
-## Why use git?
+#### Why use git?
 
 Git is a free and open source distributed version control system. It helps developers working on the same project simultaneously and facilitates the continuous software development process.
 
-# So, Let's Go!
+### So, Let's Go!
 
-### Download
+#### Download
 
 First you must download git on your computer from the [website](https://git-scm.com/). It is a very simple process, after downloading git, we are ready to run our first command lines.
 
-### How use?
+#### How use?
 
 The git commands can be used by the git bash, terminal or even the integrated vscode terminal.
 
-### Setup 
+#### Setup 
 
 To simplify I will use the blocks between **<>** will be your data, so you must have already created an account on some source code hosting platforms like [GitHub](https://github.com/).
 
