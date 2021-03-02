@@ -67,7 +67,32 @@ git clone <url>
 
 #### After configuring the project
 
-Once a project is set up correctly, every change made to it will be detected by git, it's possible to see the files changed by the command:
+Before we start to modify a code it's good that we create a branch so that the changes can be made a good workflow, through the command:
+
+```gitconfig
+git branch <name of branch>
+```
+
+To change to the branch that we create, its simple, just type:
+
+```gitconfig
+git checkout <name of branch>
+```
+
+It's possible to do both creation and modification actions for the created branch with just one command:
+
+```gitconfig
+git checkout -branch <name of branch>
+
+```
+
+or the reduced form that I use:
+
+```gitconfig
+git checkout -b <name of branch>
+```
+
+Once a project is set up correctly and changes made to the code, every modification made to it will be detected by git, it's possible to see the files changed by the command:
 
 ```gitconfig
 git status
