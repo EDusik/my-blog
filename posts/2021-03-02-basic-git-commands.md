@@ -67,8 +67,10 @@ git clone <url>
 
 #### After configuring the project
 
-Once a project is set up correctly, every change made to it will be detected by git, it's possible to see the changes by the command:
+Once a project is set up correctly, every change made to it will be detected by git, it's possible to see the files changed by the command:
 
 ```gitconfig
 git status
 ```
+
+To see the differences in the modified file just type: \`git diff\`.
