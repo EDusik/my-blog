@@ -73,4 +73,14 @@ Once a project is set up correctly, every change made to it will be detected by 
 git status
 ```
 
-To see the differences in the modified file just type: \`git diff\`.
+To see the differences in the modified file just type:
+
+```gitconfig
+git diff
+```
+
+After that, it is necessary to prepare our files to be committed, you can activate them one by one using the command:
+
+```
+git stage <path of file>
+```
