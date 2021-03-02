@@ -20,7 +20,7 @@ Git is a free and open source distributed version control system. It helps devel
 
 #### Download
 
-First you must download git on your computer from the [website](https://git-scm.com/). It is a very simple process, after downloading git, we are ready to run our first command lines.
+First you must download git on your computer from the [website](https://git-scm.com/). It is a very simple process, after downloading it, we are ready to run our first command lines.
 
 #### How use?
 
@@ -28,7 +28,7 @@ The git commands can be used by the git bash, terminal or even the integrated vs
 
 #### Setup
 
-To simplify I will use the blocks between **<>** will be your data, so you must have already created an account on some source code hosting platforms like [GitHub](https://github.com/).
+To simplify the blocks between <> will be your data, so you must have already created an account on some source code hosting platforms like [GitHub](https://github.com/).
 
 First off all, we need to configure the user, email and if we were to work with the [node](https://nodejs.org/en/), the npm settings.
 
@@ -45,7 +45,7 @@ git config --global user.name
 git config --global user.email
 ```
 
-#### Creating a git project
+#### Creating a Git project
 
 To create an empty git repository or reinitialize an existing one:
 
@@ -67,7 +67,7 @@ git clone <url>
 
 #### After configuring the project
 
-Before we start to modify a code it's good that we create a branch so that the changes can be made a good workflow, through the command:
+Before we start to modify a code, it's good that we create a branch so that the changes can be made a good workflow, through the command:
 
 ```gitconfig
 git branch <name of branch>
@@ -79,11 +79,10 @@ To change to the branch that we create, its simple, just type:
 git checkout <name of branch>
 ```
 
-It's possible to do both creation and modification actions for the created branch with just one command:
+It's possible to create and modify to the branch created with just one command:
 
 ```gitconfig
 git checkout -branch <name of branch>
-
 ```
 
 or the reduced form that I use:
@@ -98,7 +97,7 @@ You can check the branch you are working with with the command:
 git branch
 ```
 
-Once a project is set up correctly and changes made to the code, every modification made to it will be detected by git, it's possible to see the files changed by the command:
+Once a project is set up correctly and some changes were made to the code, every modification to it will be detected by git, it's possible to see the files changed by the command:
 
 ```gitconfig
 git status
@@ -138,4 +137,4 @@ git push origin <name of the branch>
 
 Well this is the end of the post, I hope it helped the people with the git commands that you will use from day to day, of course, any doubts is always good to check the documentation on the [site](https://git-scm.com/docs).
 
-Thanks to everyone.
+Thanks to everyone!
