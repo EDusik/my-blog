@@ -8,9 +8,9 @@ background: "#6272a4"
 ---
 #### Why write about git?
 
-`I decided to write this post, because, although it's something common for those who already work with software development, I realize that it can generate many doubts in the beginners in programming.`\
-``\
-`This article aims to explain the main commands used by git and its features.`
+I decided to write this post, because, although it's something common for those who already work with software development, I realize that it can generate many doubts in the beginners in programming.\
+\
+This article aims to explain the main commands used by git and its features.
 
 #### Why use git?
 
