@@ -49,19 +49,19 @@ git config --global user.email
 
 To create an empty git repository or reinitialize an existing one:
 
-```gitattributes
+```gitconfig
 git init
 ```
 
 To change the remote upstream:
 
-```
+```gitconfig
 git remote set-url origin <url>
 ```
 
 Clone an existing project:
 
-```
+```gitconfig
 git clone <url>
 ```
 
