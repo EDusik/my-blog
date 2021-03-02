@@ -33,8 +33,8 @@ To simplify I will use the blocks between **<>** will be your data, so you must 
 First off all, we need to configure the user, email and if we were to work with the [node](https://nodejs.org/en/), the npm settings.
 
 ```gitconfig
-git config --global user.name "<USERNAME>"
-git config --global user.email "<EMAIL>"
+git config --global user.name "<username>"
+git config --global user.email "<email>"
 npm config set registry https://registry.npmjs.org/
 ```
 
@@ -54,10 +54,14 @@ git init
 
 ```
 
+To change the remote upstream:
 
-
-<!--StartFragment-->
-
+```
 git remote set-url origin <url>
+```
 
-<!--EndFragment-->
+To clone an existing project
+
+```
+git clone <url>
+```
