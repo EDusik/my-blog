@@ -67,7 +67,7 @@ git clone <url>
 
 #### After you set up the project
 
-Before we start to modify a code, it's good that we create a branch so that the changes can be made a good workflow, through the command:
+Before we start to modify a code, it's good that we create a branch so the changes can be made a good workflow, through the command:
 
 ```gitconfig
 git branch <name of branch>
