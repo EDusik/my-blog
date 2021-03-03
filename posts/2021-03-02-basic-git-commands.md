@@ -8,8 +8,10 @@ background: "#6272a4"
 ---
 #### Why write about git?
 
+<blockquote>
 I decided to write this post, because, although it's something common for those who already work with software development, I realize that it can generate many doubts in the beginners in programming.\
-\
+</blockquote>
+
 This article aims to explain the main commands used by git and its features.
 
 #### Why use git?
@@ -20,7 +22,7 @@ Git is a free and open source distributed version control system. It helps devel
 
 #### Download
 
-First you must download git on your computer from the [website](https://git-scm.com/). It is a very simple process, after downloading it, we are ready to run our first command lines.
+First you must download git on your computer from the <a href="https://git-scm.com/" target="_blank">website</a>. It is a very simple process, after downloading it, we are ready to run our first command lines.
 
 #### How use?
 
@@ -28,9 +30,9 @@ The git commands can be used by the git bash, terminal or even the integrated vs
 
 #### Setup
 
-To simplify the blocks between <> will be your data, so you must have already created an account on some source code hosting platforms like [GitHub](https://github.com/).
+To simplify the blocks between <> will be your data, so you must have already created an account on some source code hosting platforms like <a href="https://github.com/" target="_blank">GitHub</a>.
 
-First off all, we need to configure the user, email and if we were to work with the [node](https://nodejs.org/en/), the npm settings.
+First off all, we need to configure the user, email and if we were to work with the <a href="https://nodejs.org/en/" target="_blank">node</a>, the npm settings.
 
 ```gitconfig
 git config --global user.name "<username>"
@@ -135,6 +137,6 @@ We are almost at the end, the files are already saved on your machine, however t
 git push origin <name of the branch>
 ```
 
-Well this is the end of the post, I hope it helped the people with the git commands that you will use from day to day, of course, any doubts it's always good to check the documentation on the [site](https://git-scm.com/docs).
+Well this is the end of the post, I hope it helped the people with the git commands that you will use from day to day, of course, any doubts it's always good to check the documentation on the <a href="https://git-scm.com/docs/" target="_blank">site</a>.
 
 Thanks to everyone!

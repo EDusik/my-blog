@@ -216,6 +216,13 @@ export const MainContent = styled.section`
     padding: 0 0 0 22px;
   }
 
+  blockquote {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.7;
+    margin: 2rem auto;
+  }
+
   .instagram-media {
     margin: 1rem auto !important;
   }
