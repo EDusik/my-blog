@@ -9,7 +9,7 @@ background: "#6272a4"
 #### Why write about git?
 
 <blockquote>
-I decided to write this post, because, although it's something common for those who already work with software development, I realize that it can generate many doubts in programming beginners.
+I decided to write this post, because, although it's something common for those who already work with software development, I realized that it can generate many doubts in programming beginners.
 </blockquote>
 
 This article aims to explain the main commands used by git and its features.
@@ -30,7 +30,7 @@ The git commands can be used by the git bash, terminal or even the integrated vs
 
 #### Setup
 
-To simplify the blocks between <> will be your data, so you must have already created an account on some source code hosting platforms like <a href="https://github.com/" target="_blank">GitHub</a>.
+To simplify, the blocks between <> will be your data, so you must have already created an account on some source code hosting platforms like <a href="https://github.com/" target="_blank">GitHub</a>.
 
 First off all, we need to configure the user, email and if we were to work with the <a href="https://nodejs.org/en/" target="_blank">node</a>, the npm settings.
 
@@ -69,7 +69,7 @@ git clone <url>
 
 #### After you set up the project
 
-Before we start to modify a code, it's good that we create a branch so the changes can be made a good workflow, through the command:
+Before we start to modify a code, it's good practice to create a branch, since it will help on our workflow, through the command:
 
 ```gitconfig
 git branch <name of branch>
@@ -93,7 +93,7 @@ or the reduced form that I use:
 git checkout -b <name of branch>
 ```
 
-You can check the branch you are working with with the command:
+You can check the branch you are working with the command:
 
 ```gitconfig
 git branch
@@ -123,7 +123,7 @@ Or adding all modified files running this command on the source of project:
 git add .
 ```
 
-*We are almost at the end of the process, it seems like a lot, but I guarantee that with practice these commands will be natural and automatic.*
+*We are almost at the end of the process, it seems like a lot, but I guarantee that with practice these commands will become natural and automatic.*
 
 After adding the files via stash or add, just commit them, using this command:
 
@@ -137,6 +137,6 @@ We are almost at the end, the files are already saved on your machine, however t
 git push origin <name of the branch>
 ```
 
-Well this is the end of the post, I hope it helped the people with the git commands that you will use from day to day, of course, any doubts it's always good to check the documentation on the <a href="https://git-scm.com/docs/" target="_blank">site</a>.
+Well this is the end of the post, I hope it helped you with the git commands that you will use from day to day, of course, if any doubts appears it's always good to check the documentation on the <a href="https://git-scm.com/docs/" target="_blank">site</a>.
 
 Thanks to everyone!
