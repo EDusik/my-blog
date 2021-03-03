@@ -65,7 +65,7 @@ Clone an existing project:
 git clone <url>
 ```
 
-#### After configuring the project
+#### After you set up the project
 
 Before we start to modify a code, it's good that we create a branch so that the changes can be made a good workflow, through the command:
 
