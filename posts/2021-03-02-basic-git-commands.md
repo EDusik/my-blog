@@ -24,7 +24,7 @@ Git is a free and open source distributed version control system. It helps devel
 
 First you must download git on your computer from the <a href="https://git-scm.com/" target="_blank">website</a>. It is a very simple process, after downloading it, we are ready to run our first command lines.
 
-#### How use?
+#### How to use?
 
 The git commands can be used by the git bash, terminal or even the integrated vscode terminal.
 
