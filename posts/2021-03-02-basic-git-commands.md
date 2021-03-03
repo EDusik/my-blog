@@ -1,6 +1,6 @@
 ---
 title: Git commands
-description: Main git commands that you will use on day by day
+description: Main git commands that you will use on day to day
 date: 2021-03-02 02:55:59
 thumbnail: assets/img/git.png
 category: dev
