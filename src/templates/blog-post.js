@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout/Layout";
@@ -16,12 +16,12 @@ const BlogPost = ({ data, pageContext }) => {
 
 	const [barWidth, setBarWidth] = useState(0);
 
-	const handleScroll = () => {
+	const handleScroll = useCallback(() => {
 		const postWrap = document.querySelector(".main-content");
 		const textHeight = postWrap.offsetHeight;
 		const pagePositionY = window.pageYOffset;
 		setBarWidth((pagePositionY * 100) / textHeight);
-	};
+	}, []);
 
 	useEffect(() => {
 		window.addEventListener("scroll", handleScroll);
