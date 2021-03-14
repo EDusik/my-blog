@@ -63,14 +63,14 @@ export const AboutText = styled.h3`
 `;
 
 export const SocialWrapper = styled.div`
-    -webkit-box-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: initial;
-    list-style: none;
-    width: 200px;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: initial;
+  list-style: none;
+  width: 200px;
 
-    ${media.lessThan("large")`
+  ${media.lessThan("large")`
     width: 100%;
   `}
 `;
